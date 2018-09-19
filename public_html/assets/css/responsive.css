@@ -1,0 +1,14 @@
+@media screen and (min-width:655px) { 
+    nav #site_nav{
+        display: block;
+    }
+    nav #site_nav li{
+        width:18%;
+    }
+    #hamburger{
+        display:none;
+    }
+}
+@media screen and (min-width:900px){ 
+
+}
