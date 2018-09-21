@@ -1,10 +1,23 @@
 body{
     font-size:1.1rem;
     font-family:Arial;
+    text-shadow:0 0 5px white;
+    background-image:url('../images/seamless1.jpg');    
 }
 a{
     text-decoration:none;
     color:whitesmoke;
+}
+h1,h4, p{
+    text-align: center;
+    background-color:white;
+    width:90%;
+    margin:0 auto;
+}
+p{
+    text-align: left;
+    padding:5%;
+    box-sizing: border-box;
 }
 .clear{
     clear:both;
@@ -39,31 +52,35 @@ nav{
 .js #site_nav li{
     text-align: center;
     width:100%;
+    height:2.3rem;
+    font-size:2rem;
+    padding:2% 2% 10% 2%;
     background: darkslategrey;    
     display:inline-block;
     height:2rem;
     border:2px solid lightsteelblue;
     border-radius:5px;
     margin:0 0 2% 0;
+    box-sizing: border-box;
 }
 #site_nav li:hover{
     background-color:lightgray;
 }
 .imgBg{    
-    width:40%;
-    padding:0 0 20% 0;
+    width:93%;
+    padding:0 0 57.5% 0;
     cursor:pointer;    
-    /*background-size:cover;*/
+    background-position: center;
     background-size:contain;
     background-repeat: no-repeat;   
     float:left;
-    margin:2%;
-    background-color:whitesmoke;
+    margin:2% 2% 1% 4%;    
     transition: all .3s ease-in-out;
+    box-sizing: border-box;
 }
 
 .imgBg:nth-of-type(1){
-    background-image:url('../images/cham1.jpg');    
+    background-image:url('../images/catmeleon1.jpg');    
 }
 .imgBg:nth-of-type(2){
     background-image:url('../images/cham2.jpg');
@@ -74,6 +91,36 @@ nav{
     background-size:100% auto;
     background-color:lemonchiffon;
 }
+figure{
+    margin:0;
+    width:100%;
+    overflow:auto;
+}
+.imgContainer{
+    margin:4% auto;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    border:5px solid whitesmoke;
+    box-sizing:border-box;
+}
+.imgContainer figure{
+    position:relative;
+    max-width: none;
+    height:auto;    
+}
+.imgContainer img{
+    width:100%;    
+    height: auto;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+imgResponsive{
+    max-width:100%;
+    height:auto;
+}
 footer {
     width:18.75rem;
     overflow-x:auto;
@@ -83,7 +130,7 @@ footer {
 footer #footer_nav{
     list-style: none;
     padding-inline-start:5px !important;
-        box-shadow: inset -15px 0 20px -10px black;
+    box-shadow: inset -15px 0 20px -10px black;
 }
 footer #footer_nav li{
     cursor:pointer;

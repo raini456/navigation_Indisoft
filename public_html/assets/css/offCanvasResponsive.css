@@ -1,3 +1,16 @@
+@media screen and (min-width:450px) { 
+    .imgBg{
+        width:50%;
+        padding:0 0 25% 0;
+    } 
+    .imgBg:hover{
+        background-color:white;
+    }
+    body{
+        background-image:url('../images/seamless2.jpg');
+    }
+}
+
 @media screen and (min-width:655px) { 
     nav #site_nav{
         display: block;
@@ -8,7 +21,24 @@
     #hamburger{
         display:none;
     }
+    body{
+        background-image:url('../images/seamless3.jpg');
+    }
+    .imgHalfsize{
+        width:calc(50% - 1rem);
+       float:right;
+        margin:2% 2%;
+    }
+    .imgContainer figure{
+        width:100%;
+        height:auto;
+        margin:0% 0%;
+    }
+    .imgContainer img{
+        width:130% !important;        
+    }
 }
-@media screen and (min-width:900px){ 
 
+@media screen and (min-width:900px){ 
+    
 }
