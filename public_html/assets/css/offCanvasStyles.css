@@ -49,6 +49,31 @@ nav{
 #site_nav li:hover{
     background-color:lightgray;
 }
+.imgBg{    
+    width:40%;
+    padding:0 0 20% 0;
+    cursor:pointer;    
+    /*background-size:cover;*/
+    background-size:contain;
+    background-repeat: no-repeat;   
+    float:left;
+    margin:2%;
+    background-color:whitesmoke;
+    transition: all .3s ease-in-out;
+}
+
+.imgBg:nth-of-type(1){
+    background-image:url('../images/cham1.jpg');    
+}
+.imgBg:nth-of-type(2){
+    background-image:url('../images/cham2.jpg');
+    float:right;
+}
+.imgBg:hover{
+    opacity:0.75;
+    background-size:100% auto;
+    background-color:lemonchiffon;
+}
 footer {
     width:18.75rem;
     overflow-x:auto;
