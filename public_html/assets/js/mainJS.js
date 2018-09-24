@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('html').addClass('js');
+   $('html').addClass('js');
     //var navToggle =['<div id="hamburger">&#127828;</div>'].join("");
     var navToggle = ['<div id="hamburger">&#9776; </div>'].join("");
     $("nav").prepend(navToggle);
@@ -14,4 +14,6 @@ $(document).ready(function () {
             $('nav #site_nav').removeAttr('style');
         }
     });
+    $('article').fitVids();
+    
 });

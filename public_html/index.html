@@ -23,11 +23,82 @@ and open the template in the editor.
             </ul>
         </nav>
         <article>
-            <h1>Das gewöhnliche Katmeleon</h1>
+            <h1>Das gewöhnliche Katmeleon</h1><br><br>
+            <div class="mySlider">
+                <div>my content</div>
+                <div>my content</div>
+                <div>my content</div>
+            </div>
+            <h4>Video1</h4>
+            <video controls src="assets/videos/firstVideo.mp4" type="video/mp4"></video><br><br>
+            <h4>Video2</h4><br>
+            <iframe src="https://www.youtube.com/embed/M_ciiCyxOJA" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe><br><br>
             <div>
                 <h4>Background-Image</h4>
                 <div class="imgBg"></div>
             </div>
+            <h4>Tabellen</h4><br>
+            <table id="table1">
+                <tr>
+                    <th>1</th>
+                    <td>A1</td>
+                    <td>A2</td>
+                    <td>A3</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <th>3</th>                    
+                    <td>C1</td>
+                    <td>C2</td>
+                    <td>C3</td>   
+                </tr>
+            </table>
+            <br><br>
+            <table id="table2">
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>                    
+                </tr>
+                <tr>
+                    <td>A1</td>                    
+                    <td>A2</td>
+                    <td>A3</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                </tr>
+                <tr>                                        
+                    <td>C1</td>
+                    <td>C2</td>
+                    <td>C3</td>   
+                </tr>
+            </table>
+            <div id="table3">
+                <div class="tableRow">
+                    <div class="tableCell tableHead">1</div>
+                    <div class="tableCell">A1</div>
+                    <div class="tableCell">A2</div>
+                </div>
+                <div class="tableRow">
+                    <div class="tableCell tableHead">2</div>
+                    <div class="tableCell">B1</div>
+                    <div class="tableCell">B2</div>
+                </div>
+                <div class="tableRow">
+                    <div class="tableCell tableHead">3</div>
+                    <div class="tableCell">C1</div>
+                    <div class="tableCell">C2</div>
+                </div>
+            </div>
+
             <p>
 
                 Catmeleon ipsum dolor sit amet, pet right here, no not there, here, no fool, 
@@ -92,7 +163,8 @@ and open the template in the editor.
                 </figure> 
             </div>
         </article>
-        <script src="assets/js/lib/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/js/lib/fitvids.js" type="text/javascript"></script>
         <script src="assets/js/lib/prefixFree.js" type="text/javascript"></script>        
         <script src="assets/js/offCanvasMainJS.js" type="text/javascript"></script>
     </body>

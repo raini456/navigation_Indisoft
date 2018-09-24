@@ -66,6 +66,85 @@ nav{
 #site_nav li:hover{
     background-color:lightgray;
 }
+video, iframe{    
+    min-width:90%;
+    max-width:95%;
+    margin:2% 2% 2% 3%;
+    height:auto;
+    border:2px solid green;
+}
+#table1, #table2, #table3{
+    width:96%;
+    height:auto;
+    background-color:whitesmoke;
+    text-align: center;
+    margin:2%;
+}
+#table1 tr{
+    width:100%;
+    margin-bottom:.4em;
+    border-bottom:2px solid black;
+    float:left;
+}
+#table1 tr:last-of-type{
+    border-bottom:0;
+}
+#table1 th, #table1 td{
+    float:left;
+    width:100%;
+    border-bottom:1px solid silver;
+}
+#table1 th{
+    border-bottom:2px solid orange;
+}
+#table2 th{
+    display:none;
+}
+#table2 tr, #table2 td{
+    width:100%;
+    float:left;
+}
+#table2 tr{
+    border-top:2px solid orange;
+}
+#table2 tr:first-of-type(1), #table2 tr:first-of-type(2){
+    border-top:0px solid gray;
+}
+#table2 tr:nth-of-type(2):before, #table2 tr:nth-of-type(3):before, #table2 tr:nth-of-type(4):before{
+    width:100%;
+    font-weight:bold;
+    font-size:1.4rem;
+    border-bottom:2px solid orange;
+}
+#table2 tr:nth-of-type(2):before{
+    content:'1';    
+    color:red;
+}
+#table2 tr:nth-of-type(3):before{
+    content:'2';     
+    color:green;
+}
+#table2 tr:nth-of-type(4):before{
+    content:'3'; 
+    color:orange;
+}
+#table3{    
+    display:table;
+}
+#table3 .tableRow{
+    width:100;
+    display:table-row;
+}
+#table3 .tableCell{
+    width:100%;
+    display: table-cell;
+    float:left;
+}
+#table3 .tableHead{
+    font-weight:bold;
+    background-color:#eee;
+}
+
 .imgBg{    
     width:93%;
     padding:0 0 57.5% 0;
